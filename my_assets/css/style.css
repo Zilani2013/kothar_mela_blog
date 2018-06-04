@@ -1,0 +1,895 @@
+
+
+body {
+	background: #bfcacc;
+}
+
+div#header {
+
+	background: url('../img/home-bg.jpg') center center no-repeat;
+	background-size: cover;
+	margin-top: -72px;
+	padding: 120px;
+}
+
+#header h1 {
+	position: relative;
+	top: -20px;
+	left: -40px;
+	color: #5afcb9;
+}
+
+#header cite {
+	font-size: 16px;
+	color: #ccbcb7;
+	position: relative;
+	top: -20px;
+	left: -20px;
+}
+
+#logo {
+	background: #dce2e2;
+	padding: 0 20px 0 20px;
+
+}
+
+
+
+#userForm {
+		margin-bottom: 10px;
+		margin-left: 10px;
+}
+
+.navbar-brand {
+	position: relative; 
+	right: -100px; 
+	top: 10px;
+	box-shadow: 2px 4px 4px none;
+	text-shadow: 2px 3px 4px #aaa; font-weight: bold;
+	font-size: 20px;	
+}
+
+
+.navbar-brand:hover {
+	text-decoration: underline;
+	/*background: #b2b0b0;*/
+}
+
+.navbar-brand:active {
+	transition: 0.5s;
+	top: 15px;
+}
+
+#navigation li a:hover {
+	color: #0a0909;
+	text-decoration: underline;
+	background: #7a4233;
+	font-size: 15px;
+}
+
+.loggedPost {
+
+	position: relative;
+	left: 400px;
+}
+
+.loggedPost a:hover {
+	font-size: 14px;
+	color: #fff;
+
+}
+
+.nav li {
+
+	margin: 0 20px;
+	color: #c9dbdb;
+}
+
+.nav li a {
+	/*font-size: 15px;*/
+	font-weight: bold;
+}
+
+#navigation li a {
+	color: #c9dbdb;
+	font-size: 14px;
+}
+
+#postCategory {
+	background: #7c7a7a; 
+	border: solid 1px #9e9191; 
+	box-shadow: 8px 9px 9px #474343;
+	padding: 5px;
+	/*margin-left: -10px;*/
+	text-align: center;
+}
+
+#postCategory h3 {
+	text-align: center;
+	border-bottom: solid 1px #edeaea;
+	color: #e27c96;
+	margin-top: 10px;
+	font-size: 22px;
+}
+
+#postCategory ul li {
+	list-style: none;
+	margin: 7px 0;
+	/*border: solid 1px #896565;*/
+	
+}
+
+#postCategory ul li a {
+	color: #87dddd;
+	font-size: 14px;
+	border-bottom: solid 1px #aaa;
+	font-weight: bold;
+	margin-left: -50px;
+
+	
+}
+
+#postType option {
+	color: blue;
+}
+
+#postCategory ul li a:hover {
+	color: #3baaaf;
+	text-decoration: none;
+}
+
+#postCategory ul li a:active {
+	color: #fcf9f9;
+}
+
+#postContent {
+	border: solid 1px #aab4b5;
+	box-sizing: border;
+	padding: 20px;
+	border-radius: 10px;
+	background: #edf2f2;
+	position: relative;
+	right: -10px;
+}
+
+#postContent h2 {
+	text-align: center;
+	margin-top: 0;
+	text-decoration: underline;
+	text-shadow: 1px 2px 5px #c5cbcc;
+}
+
+#contactForm {
+	background: #c0d0d3;
+	position: relative;
+	right: -150px;
+	padding: 20px;
+	border-radius: 10px;
+}
+
+
+#notice {
+	/*text-align: justify;*/
+	box-sizing: border;
+	padding: 20px;
+	border: solid 1px #829ea0;
+	box-shadow: 2px 4px 4px #74797a;
+	background: #f4c5b5;
+	border-radius: 10px;
+	position: relative;
+	left: 10px;
+}
+
+#notice h4 {
+	font-size: 18px;
+	font-weight: bold;
+	text-align: center;
+	margin: -5px 0 0 0;	
+	/*margin: -5px 0 0;*/
+	border-bottom: solid 1px #3b4049;
+
+}
+
+.profile {
+	position: relative; 
+	left: -10px;
+}
+
+#notice > .profile span {
+	font-size: 11px; 
+	font-weight: bold;
+}
+
+#notice p {
+	font-weight: bold;
+	font-size: 12px;
+
+}
+
+#notice p span {
+	font-size: 12px;
+	color: #9b3e4c;
+}
+
+#notice label {
+	border: solid 1px #bbb;
+	padding: 2px;
+	position: relative;
+	right: -15px;
+}
+
+#notice button {
+	position: relative; 
+	right: -60px; 
+	font-size: 10px
+}
+
+#notice img {
+	position: relative;
+	left: 50px;
+}
+
+footer {
+	background: #222323;
+	color: #c0c3c6;
+}
+
+
+#foot-contact p {
+	color: #24c1bf;
+}
+
+#allcomment {
+
+	color: #59ace0;
+	text-decoration: underline;
+	font-weight: bold;
+	font-size: 20px;
+	position: relative;
+	left: 20px;
+
+}
+
+#totalComment {
+	font-weight: bold;
+	position: relative;
+	left: 18px;
+}
+
+
+#commentBox {
+	margin-top: 30px;
+	padding: 5px;
+	margin: 10px;
+}
+
+#commentBox h4 {
+	background: #98e0e0;
+	padding: 7px;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+#commentBox h4 small {
+	font-weight: bold;
+	font-size: 12px;
+	color: #bf511e;
+}
+
+#commentBox p {
+	white-space: pre-wrap;
+	background: #dbdbdb;
+	padding: 5px;
+	margin-top: -10px;
+	text-align: justify;
+	font-size: 13px;
+	/*margin-left: 10px;*/
+}
+
+.replyForm {
+	font-size: 14px;
+	position: relative;
+	right: 18px;
+}
+
+.replyForm label {
+	font-size: 12px;
+}
+
+.replyForm button {
+	background: #c1baba;
+	position: relative;
+	top: -46px;
+	border: none;
+	color: #000;
+}
+
+.replyForm textarea[type=text] {
+	width: 115%;
+}
+
+#commentReplies {
+	margin-left: 70px;
+	position: relative;
+	top: -10px;
+	width: 88%;
+	margin-bottom: 10px;
+
+}
+
+#commentReplies h6 {
+	background: #91c2e0;
+	padding: 5px;
+	color: #9b2912;
+	font-size: 14px;
+	font-weight: bold;
+
+}
+
+#commentReplies h6 small {
+	font-weight: bold;
+}
+
+#commentReplies p {
+	background: #d8cca6;
+	font-size: 12px;
+	padding: 5px;
+	margin-top: -10px;
+}
+
+
+#posts {
+	border: solid 1px none;
+	background: #f2f2f2;
+	padding: 10px;
+	margin: 10px 0;
+ 	white-space: pre-wrap;       /* css-3 */
+ 	white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
+ 	white-space: -pre-wrap;      /* Opera 4-6 */
+ 	white-space: -o-pre-wrap;    /* Opera 7 */
+ 	word-wrap: break-word;       /* Internet Explorer 5.5+ */
+}
+
+#posts1 {
+	/*border: solid 1px none;*/
+	background: #f2f2f2;
+	padding: 10px;
+	white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
+	white-space: -pre-wrap;      /* Opera 4-6 */
+	white-space: -o-pre-wrap;    /* Opera 7 */
+	word-wrap: break-word;       /* Internet Explorer 5.5+ */
+}
+
+
+#totalComments {
+	background: #e8eaea;
+	width: 100%;
+	padding: 6px;
+	position: relative;
+	bottom: 10px;
+
+}
+
+#totalComments a {
+	position: relative;
+	left: 730px;
+	font-size: 13px;
+	font-weight: bold;
+}
+
+
+
+.userEdit {
+	font-size: 8px;
+	text-decoration: underline; font-weight: bold;
+	/*margin: 0 5px;*/
+	position: relative; right: -10px;
+}
+
+.cmnt {
+	font-weight: bold; 
+	font-size: 14px; 
+	color: #a88888; 
+	margin: 0 5px;
+}
+
+
+
+.profileHeader {
+	position: relative; 
+	bottom: 20px; 
+	text-align: center; 
+	border: solid 1px #aaa;
+	padding: 5px;
+}
+
+.files {
+	font-size: 11px; 
+	position: relative; 
+	bottom: 15px; 
+	width: 100%; 
+}
+
+.proBtn {
+	font-size: 10px; 
+	position: relative; 
+	bottom: 13px;
+}
+
+.proTag {
+	
+	position: relative;
+	bottom: 20px;
+	right: 10px;
+	font-size: 11px;
+	text-align: center;
+}
+
+.files2 {
+	width: 82%;
+	position: relative; 
+	right: 10px;
+	top: 2px;
+	font-size: 10px; 
+}
+.proBtn2 {
+	font-size: 10px; 
+	position: relative; 
+	left: 120px; 
+	bottom: 25px;
+	border: none;
+}
+
+.pagination {
+	 display: inline;
+	 list-style: none;
+	 margin: 0 10px;
+	 border: solid 1px #aaa;
+	 text-align: center;
+	 padding: 5px;
+	 box-shadow: 2px 4px 5px #757171;
+	 background: #5cb9c9;
+	 border-radius: 10px;
+	 font-weight: bold;
+	 font-size: 11px;
+
+  }
+
+  .pagination2 {
+	text-align: center;
+  }
+
+
+
+
+/*=====================================================================================================================
+												Admin Panels Style
+======================================================================================================================*/
+
+
+
+#adminBody {
+	background: #c1c1c1;
+}
+
+
+.sidebar {
+    position: fixed;
+    top: 50px;
+    bottom: 0;
+    left: 0;
+    /*right: 0;*/
+    width: 200px;
+    /*z-index: 1000;*/
+    /*display: block;*/
+    padding: 20px;
+    overflow-x: hidden;
+    overflow-y: auto; 
+    background-color: #2b2b2a;
+    border-right: 1px solid none;
+  }
+
+
+.nav-sidebar > li { width: 130%; }
+
+.nav-sidebar > li > a {
+  position: relative;
+  right: 40px;
+  font-size: 12px;
+  color: #545656;
+  font-weight: bold;
+  color: #d3d3cf;
+}
+
+.nav-sidebar a:hover,
+.nav-sidebar > .active > a:focus {
+  font-weight: bold;
+  background-color: #428bca;
+  color: #545656;
+  width: 120%;
+    
+}
+
+.nav-sidebar > .active > a {
+    color: black;
+    font-weight: bold;
+    background-color: #428bca;
+}
+
+
+#adminHome {
+	position: relative;
+	left: 140px;
+	top: 200px;
+}
+
+#adminHome > .boxs {
+	width: 214px;
+	height: 200px;
+	padding: 20px;
+	box-sizing: border;
+	border: solid 2px none;
+	border-radius: 10px;
+	margin: 20px 50px;
+	background: #ccab80;
+	box-shadow: 3px 5px 7px #424444;
+}
+
+#adminHome > .boxs > strong
+ {
+	display: block;
+	text-align: center;
+	position: relative;
+	top: 40px;
+	font-weight: bold;
+}
+
+#adminHome > .boxs > a {
+	display: block;
+	font-weight: bold;
+	text-align: center;
+	position: relative;
+	top: 10px;
+	left: 45px;
+	width: 80px;
+	border: solid 1px #000;
+	border-radius: 120px;
+	padding: 25px;
+	font-size: 18px;
+	background: #95b2a3;
+}
+
+
+#homeTable {
+	position: relative;
+	left: 140px;
+	width: 95%;
+	background: #dbd9d4;
+	/*font-size: 12px;*/
+
+}
+
+#blogMemberTable {
+	position: relative;
+	top: 75px;
+	left: 110px;
+	width: 97%;
+	background: #c9b57e;
+	border: border 1px #c9b57e;
+}
+
+
+#allPostbody {
+	position: relative;
+	top: 10px;
+	left: -78px;
+	padding: 40px;
+}
+
+
+#blogMemberTable thead {
+	background: #827f78;
+	text-align: center;
+	font-size: 20px;
+}
+
+#blogMemberTable thead th {
+	text-align: center;
+	font-size: 16px;
+}
+
+#blogMemberTable tbody td {
+	text-align: center;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+#body h1 {
+	position: relative;
+	top: 50px;
+	left: 80px;
+	text-align: center;
+}
+
+
+#search {
+	position: relative;
+	top: 60px;
+	left: 80px;
+}
+
+
+#title h3 {
+	color: #3c896d; 
+	text-align: center; 
+	font-weight: bold;
+}
+
+#title > #title_link {
+
+	font-weight:bold; 
+	font-size: 28px; 
+	color: #3c896d;
+}
+
+
+#postContent2 {
+	border: solid 1px none;
+	box-sizing: border;
+	padding: 40px;
+	border-radius: 10px;
+	background: #edf2f2;
+	position: relative;
+	right: -201px;
+	width: 85%;
+}
+
+#postContent2 label {
+	position: relative;
+	left: -90px;
+}
+
+#postContent2 input, #postContent2 textarea, #postContent2 select {
+	position: relative;
+	left: -90px;
+}
+
+
+#commentBox1 {
+	margin-top: 30px;
+	padding: 5px;
+	margin: 10px;
+	width: 90%;
+}
+
+
+#commentBox1 h4 {
+	background: #98e0e0;
+	padding: 7px;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+#commentBox1 h4 small {
+	font-weight: bold;
+	font-size: 12px;
+	color: #bf511e;
+}
+
+#commentBox1 p {
+	white-space: pre-wrap;
+	background: #dbdbdb;
+	padding: 5px;
+	margin-top: -10px;
+	text-align: justify;
+	font-size: 13px;
+	/*margin-left: 10px;*/
+}
+
+
+.replyForm2 {
+	font-size: 14px;
+	position: relative;
+	right: 100px;
+}
+
+.replyForm2 label {
+	font-size: 12px;
+}
+
+.replyForm2 button {
+	background: #c1baba;
+	position: relative;
+	top: -46px;
+	border: none;
+	color: #000;
+}
+
+.replyForm2 textarea[type=text] {
+	width: 115%;
+}
+
+
+
+#commentReplies2 {
+	margin-left: 70px;
+	position: relative;
+	top: -60px;
+	left: 70px;
+	width: 77%;
+}
+
+#commentReplies2 h6 {
+	background: #91c2e0;
+	padding: 5px;
+	color: #9b2912;
+	font-size: 14px;
+	font-weight: bold;
+
+}
+
+#commentReplies2 h6 small {
+	font-weight: bold;
+}
+
+#commentReplies2 p {
+	background: #d8cca6;
+	font-size: 12px;
+	padding: 5px;
+	margin-top: -10px;
+}
+
+
+#comment_delete {
+	position: relative;
+	left: 930px;
+	top: 62px;
+	font-size: 24px;
+	color: red;
+}
+
+
+#reply_delete {
+
+	position: relative;
+	left: 785px;
+	top: 47px;
+	font-size: 24px;
+	color: red;
+
+}
+
+
+#posts2 {
+	border: solid 1px none;
+	background: #f2f2f2;
+	padding: 20px;
+	margin: 10px 0;
+ 	white-space: pre-wrap;       /* css-3 */
+ 	white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
+ 	white-space: -pre-wrap;      /* Opera 4-6 */
+ 	white-space: -o-pre-wrap;    /* Opera 7 */
+ 	word-wrap: break-word;       /* Internet Explorer 5.5+ */
+}
+
+#posts3 {
+	/*border: solid 1px none;*/
+	background: #f2f2f2;
+	padding: 10px;
+	white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
+	white-space: -pre-wrap;      /* Opera 4-6 */
+	white-space: -o-pre-wrap;    /* Opera 7 */
+	word-wrap: break-word;       /* Internet Explorer 5.5+ */
+}
+
+
+#post_tag {
+	background: #6d6d67; 
+	width: 107.7%; 
+	padding: 2px; 
+	position: relative; 
+	left: -41px;
+}
+
+#post_tag h1 {
+	text-align: center; 
+	color: #7ad395; 
+	font-weight: bold; 
+	font-style: italic;
+	margin-left: 30px;
+}
+
+
+#pre_tag {
+	color: #493e3e; 
+	text-align: center;
+}
+
+#post_image {
+	position: relative; 
+	left: 100px;
+}
+
+.deleteUser {
+	font-weight: bold; 
+	font-size: 12px;
+	border: solid 1px #aaa;
+	padding: 2px;
+	background: #c9c9c9;
+}
+
+
+#adminPic {
+	position: relative; right: -20px; top: -10px;
+}
+
+#postContent3 {
+	border: solid 1px none;
+	position: relative;
+	bottom: -140px;
+	right: -230px;
+	height: 280px;
+	width: 714px;
+	/*display: none;*/
+	box-shadow: 5px 6px 5px #2a2b2b;
+	background: none;
+	border-top-right-radius: 30px;
+	border-bottom-right-radius: 30px;
+	border-bottom-left-radius: 30px;
+}
+
+.vl {
+	border-right: 1px solid none;
+    height: 280px;
+    position: relative;
+    left: -400px;
+}
+
+
+#pro_pic {
+	background: #c9b68f;
+	padding: 19.8px 167px;
+	border-bottom-left-radius: 30px;
+	border-top-left-radius: 30px;
+}
+
+#pro_pic img {
+	position: relative;
+	left: -113px;
+}
+
+#postContent3 > #pro_info {
+	background: #afd8d0;
+/*	position: relative;
+	right: -333px;
+	top: -280px;*/
+	height: 280.2px;
+	width: 380px;
+	border-top-right-radius: 30px;
+	border-bottom-right-radius: 30px;
+
+}
+
+#postContent3 > #pro_info span {
+	font-size: 15px;
+	position: relative;
+	top: 45px;
+	font-weight: bold;
+	display: block;
+	font-style: italic;
+	margin-left: 10px;
+	margin-bottom: 17px;
+
+}
+
+#pro_info span a { color: #8254a8; font-size: 13px; display:  }
+
+#profile_body {
+	background: #996046;
+	/*background: rgba(80,30,50,0.9);*/
+	background-size: cover;
+	padding: 38px;
+	position: relative; right: -99.999px;
+	width: 1167px;
+	height: 637px;	
+}
